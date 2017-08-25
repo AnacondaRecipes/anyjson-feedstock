@@ -31,9 +31,15 @@ about:
     home: https://bitbucket.org/runeh/anyjson/
     license_file: LICENSE
     license: BSD 2-Clause
-    summary: Loads whichever is the fastest JSON module installed and provides a uniform API
+    license_family: BSD
+    summary: Wraps the best available JSON implementation available in a common interface
+    description: |
+        Anyjson loads whichever is the fastest JSON module installed and provides a
+        uniform API regardless of which JSON implementation is used. Originally part
+        of carrot (http://github.com/ask/carrot/)
     dev_url: https://bitbucket.org/runeh/anyjson/
     doc_url: https://bitbucket.org/runeh/anyjson/
+    doc_source_url: https://bitbucket.org/runeh/anyjson/src/default/README
 
 extra:
     recipe-maintainers:
